@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from '../renderWithRouter';
 
-describe('Teste o componente <About.js />. - requisito 2', () => {
+describe('Teste o componente <About.js />. - Requisito 2', () => {
   test('Teste se o topo da aplicação contém um conjunto fixo de links de navegação:', () => {
     renderWithRouter(<App />);
 
